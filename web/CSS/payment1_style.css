@@ -1,0 +1,436 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 05-Jul-2022, 10:36:57 pm
+    Author     : Dell
+*/
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+*::selection {
+    background-color: #007aff;
+    color: white;
+}
+
+/* ------------------------------------------------change update------------------------------------------------------ */
+
+.home {
+    background-color: white;
+}
+
+.nav-items {
+    margin-left: 544px !important;
+}
+
+.helpline_section {
+    margin: 0%;
+}
+
+/* ------------------------------------------------navigation------------------------------------------------------ */
+.payment_help a {
+    color: coral !important;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    margin: 10px 0% 0% 5px;
+}
+
+.payment_help i {
+    color: orangered;
+    cursor: pointer;
+}
+
+.payment_help i:hover {
+    color: white !important;
+}
+
+.payment_notification i {
+    color: orangered;
+    cursor: pointer;
+
+}
+
+.payment_notification button {
+    border: none;
+    border-radius: 100px;
+    padding: 0.5px 3px 0.5px 3px;
+    margin: -11px 0px 0px 0px;
+    position: absolute;
+    background-color: orange;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.payment_notification i:hover {
+    font-weight: 700;
+}
+
+.payment_user i {
+    color: orangered;
+    cursor: pointer;
+
+}
+
+#special_i {
+    color: white !important;
+    cursor: pointer;
+
+}
+
+.payment_logout {
+    margin: 38% 0% 0% 100%;
+}
+
+.payment_logout i {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    animation: movelogout 1s infinite alternate;
+}
+
+.payment_logout i:hover {
+    color: orangered !important;
+}
+
+@keyframes movelogout {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-20px);
+    }
+}
+
+/* ------------------------------------------------menus navigation------------------------------------------------------ */
+.payment_menus_section {
+    position: absolute;
+    /* background: #fd6533; */
+    background-color: #ed6e27;
+    width: 100%;
+    margin: 8px 0px 0px 0px;
+    box-shadow: inset 0px 0px 11px black;
+}
+
+.payment_menus_ulflex {
+    display: flex;
+    list-style: none;
+}
+
+.payment_menus_ulflex li {
+    font-size: 18px;
+    padding: 1% 0px 1% 0px;
+    padding: 1% 4.9% 1% 5%;
+}
+
+.payment_menus_ulflex li a {
+    text-decoration: none;
+    color: white;
+}
+
+.payment_menus_ulflex li:hover {
+    /* background-color: #ed6e27; */
+    background-color: #fd6533;
+    box-shadow: inset 0px 0px 11px black;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------menus navigation hover ------------------------------------------------------ */
+
+.payment_account_hover_menus {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin: 1% 0% 0% -5%;
+    width: 14.5%;
+
+    /* text-align: center; */
+    /* visibility: hidden; */
+}
+
+.payment_account_menus i {
+    color: rgb(255, 255, 255);
+    font-size: 266%;
+    margin: -52px 0px 0px 31px;
+}
+
+.payment_account_hover_menus a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding-left: 21px;
+
+}
+
+.payment_account_menus:hover .payment_account_hover_menus {
+    display: block;
+    /* visibility: visible; */
+}
+
+.payment_account_menus ul a:hover {
+    background-color: #fd6533;
+    color: white !important;
+}
+
+#moredetails_arrow {
+    margin: -38px 0px 0px 37%;
+    font-size: 190%;
+}
+
+#transfers_arrow1 {
+    margin: -66px 0px -14px 36px;
+    font-size: 190%;
+}
+
+#transfers_arrow2 {
+    margin: -66px 0px -14px 36px;
+    font-size: 190%;
+}
+
+#transfers_arrow3 {
+    margin: -2px 0px -41px -13px;
+}
+
+
+/* --------------------------------------moredetails sub menus----------------------- */
+
+.moredetails_div {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    margin: -19.9% 0% 0% 100.5%;
+    /* visibility: hidden; */
+    width: 100.5%;
+
+}
+
+.moredetails_submenus:hover .moredetails_div {
+    display: block;
+    /* visibility: visible; */
+}
+
+/* .moredetails_div ul a:hover {
+    background-color: rgb(0, 255, 255) !important;
+    
+} */
+
+.moredetails_div a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding-left: 21px;
+}
+
+.moredetails_div a:hover {
+    background-color: #fd6533;
+    color: white !important;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+.moredetails_div3 {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    margin: -19.9% 0% 0% 100.5%;
+    /* visibility: hidden; */
+    width: 115%;
+
+}
+
+.moredetails_submenus:hover .moredetails_div3 {
+    display: block;
+    /* visibility: visible; */
+}
+
+/* .moredetails_div ul a:hover {
+    background-color: rgb(0, 255, 255) !important;
+    
+} */
+
+.moredetails_div3 a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding-left: 21px;
+}
+
+.moredetails_div3 a:hover {
+    background-color: #fd6533;
+    color: white !important;
+}
+
+/* ---------------------------------------------------Quick links--------------------------------------------------------- */
+.quick_links_section {
+    margin: 9% 0% 0% 5%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    /* padding: 1% 1% 1% 1%; */
+    width: 17%;
+    box-shadow: 0px 0px 36px gray;
+}
+
+.quick_div1 {
+    background-color: #fd6533;
+}
+
+.quick_links_flex1 {
+    display: flex;
+    padding: 5% 10% 5% 8%;
+}
+
+.quick_links_flex1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    width: 130%;
+    font-size: 18px;
+}
+
+.quick_links_flex1 i {
+    color: white;
+    font-weight: 600;
+    font-size: 166%;
+}
+
+.quick_div2 {
+    background-color: white;
+    color: orangered;
+    padding: 0% 0% 0% 0%;
+}
+
+.quick_div2 ul {
+    padding: 5% 0%;
+}
+
+.quick_div2 ul a {
+    padding: 5% 0% 5% 8%;
+    text-decoration: none;
+    color: orangered;
+}
+
+.quick_div2 ul:hover {
+    cursor: pointer;
+    background-color: rgb(215, 215, 215);
+}
+
+/* ---------------------------------------------------Name section--------------------------------------------------------- */
+
+.main_name_section {
+    margin: 8% 0% 0% 27%;
+    position: absolute;
+}
+
+.name_goodmorning {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.welcome_dashboard_flex {
+    display: flex;
+}
+
+.welcome_dashboard {
+    font-size: 19px;
+    color: gray;
+    padding: 5px 0px 0px 0px;
+}
+
+.dashboard_p {
+    font-size: 19px;
+    color: black;
+    padding: 5px 0px 0px 5px;
+    font-weight: 900;
+}
+
+/* ---------------------------------------------------services last--------------------------------------------------------- */
+.services_list_section {
+    margin: 8% 0% 0% 70%;
+    position: absolute;
+}
+
+.services_list1_flex {
+    display: flex;
+    font-size: 17px;
+}
+
+.last_login_text {}
+
+.time_text {
+    font-weight: 700;
+    padding: 0px 0px 0px 5px;
+}
+
+.services_list2_div {
+    padding: 5px 0px 0px 0px;
+}
+
+.services_list2_flex {
+    display: flex;
+}
+
+.services_list2_flex a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    padding: 0px 5px 0px 0px;
+}
+
+.services_list2_flex a:hover {
+    color: black;
+}
+
+/* ---------------------------------------------------payment option--------------------------------------------------------- */
+.payment_option_main_section {
+    position: absolute;
+    margin: 19% 0px 0px 32%;
+}
+
+.payment_option_buttons_div {
+    padding: 8px 0px 0px 0px;
+}
+
+.payment_option_buttons_div a {
+    text-decoration: none;
+    margin: 0px 15px 0px 0px;
+    cursor: pointer;
+}
+
+.payment_option_buttons_div button {
+    border: none;
+    border-radius: 5px;
+    background-color: #ed6e27;
+    color: black;
+    padding: 10px 22px 10px 22px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.payment_option_buttons_div button:hover {
+    color: white;
+    background-color: #000000;
+    transition: background-color 0.4s ease-in-out;
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+

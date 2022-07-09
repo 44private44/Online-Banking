@@ -1,0 +1,126 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26-Jun-2022, 2:02:27 pm
+    Author     : Dell
+*/
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+::selection {
+    background-color: white;
+    color: blue;
+}
+
+.header {
+    box-shadow: 0px 7px 10px 6px rgb(61 61 61);
+    box-shadow: 0px 7px 25px 0px #f1582f;
+}
+
+.nav-main {
+    justify-content: center;
+}
+
+.nav-first {
+    padding-left: 115px;
+
+}
+
+/* -----------------------------------------Session main------------------------------------------- */
+.login_error_session {
+    padding: 5% 40% 2% 20%;
+
+}
+
+.login_inside_session_main {
+    background-color: white;
+    box-shadow: 0px 0px 20px -2px rgb(241 88 47);
+    padding: 40px;
+    border-radius: 25px;
+    width: 150%;
+    height: 45vh;
+}
+
+/* -----------------------------------------Session inside main flex------------------------------------------- */
+
+.login_error_session_flex {
+    display: flex;
+    /* margin: 25px; */
+
+}
+
+/* -----------------------------------------Session flex 1------------------------------------------- */
+
+.login_error_session_flex1 {
+
+    margin-left: 2%;
+}
+
+.login_error_session_flex1 h2 {
+    /* color: blue; */
+    color: #f1582f;
+    font-weight: bold;
+}
+
+.login_error_session_flex1 h1 {
+    color: black;
+    color: blue;
+}
+
+.login_error_session_flex1 ul li {
+
+    padding-top: 10px;
+}
+
+/* -----------------------------------------Session flex 2------------------------------------------- */
+.login_error_session_flex2 {
+
+    margin: auto;
+    margin-left: 25%;
+}
+
+/* -----------------------------------------Session hr------------------------------------------- */
+.login_error_session_flex_hr {
+    content: "";
+    position: absolute;
+    width: 64%;
+    height: 1px;
+    background: linear-gradient(130deg, white, #414141, #ffffff);
+    border-radius: 36px;
+    margin: 1% 25px 0px -2%;
+}
+
+/* -----------------------------------------Session Back button------------------------------------------- */
+
+.login_error_session_backbutton a button {
+    cursor: pointer;
+    border: none;
+    background-color: #f1582f;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px;
+    margin: 3% 25%;
+}
+
+.login_error_session_backbutton a button:hover {
+    background-color: rgb(33, 33, 33);
+    color: #f1582f;
+}
+
+/* -----------------------------------------Session design footer------------------------------------------- */
+.login_error_color_line_section {
+    margin-top: 1.5%;
+}
+
+.login_error_color_line {
+    background-color: #f1582f;
+    width: 100%;
+    height: 5vh;
+}
+

@@ -1,0 +1,141 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 07-Jul-2022, 10:58:36 pm
+    Author     : Dell
+*/
+* {
+    padding: 0%;
+    margin: 0%;
+}
+/* -------------------------------------------logo section main header------------------------------------------- */
+
+.logo_main {
+    position: absolute;
+    /*margin: -1% 0% 0% 2%;*/
+    margin: -1% 0% 0% -17%;
+}
+
+.logo_main img {
+    width: 15%;
+}
+
+/* -------------------------------------------section main header------------------------------------------- */
+
+.details_main_section {
+    background-color: #d4cff0;
+    padding: 2% 0% 2% 0%;
+
+}
+
+.details_header_div {
+    text-align: center;
+    color: orangered;
+}
+
+.details_header_div h3 {
+    font-size: 28px;
+}
+
+.user_details_div {
+    padding: 3% 0% 0% 4%;
+}
+
+.user_details_div h3 {
+    padding: 0% 0% 1% 0%;
+    color: blue;
+    font-size: 20px;
+}
+
+.label_user_details {
+    color: black;
+}
+
+/* -------------------------------------------Table------------------------------------------- */
+.cption_table {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* --------------------------------------------------------------back--------------------------------------------------------- */
+.back_main_div {
+    position: absolute;
+    margin: -2% 0% 0% 81%;
+}
+
+.back_main_div a {
+    text-decoration: none;
+}
+
+.back_main_div a button {
+    cursor: pointer;
+    border: none;
+    color: black;
+    background-color: orange;
+    padding: 7px 20px 7px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.back_main_div a button:hover {
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.back_main_div a button:hover i {
+    color: rgb(255, 255, 255);
+}
+
+
+.back_main_div a button i {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    animation: movelogout 1s infinite alternate;
+}
+
+
+@keyframes movelogout {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(13px);
+    }
+}
+
