@@ -1,0 +1,49 @@
+/* ------------------------------------Media-Quary------------------------------------------- */
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        background-color: rgb(149, 255, 123);
+        position: absolute;
+        /* width: 244%; */
+    }
+
+    /*  */
+    .home {
+        height: 258vh;
+    }
+
+    .nav-first {
+        width: 80%;
+        text-align: center;
+    }
+
+    .nav-second {
+        display: none;
+    }
+
+    /*  */
+    .blog {
+        margin-top: 40px;
+        margin-left: 7%;
+    }
+
+    /*  */
+    .restaurant {
+        margin-top: 40px;
+        display: block;
+    }
+
+    .restaurant-image {
+        margin-left: 3%;
+    }
+
+    /*     
+    .restaurant-image img{
+         width: 62%; 
+    }
+    .restaurant-second{
+
+    } */
+
+}

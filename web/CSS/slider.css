@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 03-Jul-2022, 1:54:07 am
+    Author     : Dell
+*/
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main_slider {
+    width: 45%;
+    background-color: black;
+    margin: 2% 3% 0% 4%;
+}
+
+/* .restaurant {
+    background-color: red;
+}
+
+.restaurant-image {
+    background-color: blue;
+} */
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper {
+
+    /* width: 80%;
+    height: fit-content; */
+}
+
+.swiper .swiper-button-prev {
+    color: white;
+}
+
+.swiper .swiper-button-next {
+    color: white;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background-color: white;
+}

@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+::selection {
+    color: white;
+    background-color: #d81b60;
+}
+
+/* ------------------------------------------signup header title----------------------------------- */
+
+.signup_title {
+    text-align: center;
+    padding-top: 2%;
+    color: #676eff;
+}
+
+/* ------------------------------------------signup section main----------------------------------- */
+.signup_out_section {
+    /* background: linear-gradient(45deg, #867ee4, #edcfcfb8); */
+    background: linear-gradient(166deg, #050505, #8e4274);
+    /* background: linear-gradient(18deg, #eeb186, #ff88e9); */
+    height: 87.3vh;
+    width: 100%;
+}
+
+.signup_section_flex_original {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5% 0px 2% 13%;
+}
+
+.signup_section_flex_original div {
+    margin: 0% 0% 7% 0%;
+}
+
+.signup_section_flex_original h5 {
+    color: #d81b60;
+    /* color: #2c00ff; */
+    font-size: medium;
+}
+
+.signup_section_flex_original input {
+    border: none;
+    border-radius: 8px;
+    padding: revert;
+    width: 66vh;
+    height: 4vh;
+    margin: 2% 0% 0% 0%;
+    padding: 1% 0% 1% 3%;
+}
+
+.signup_section_flex_original input:focus,
+.signup_section_flex_original select:focus {
+    box-shadow: 1px 1px 10px white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.signup_section_flex_original select option {
+    background: rgb(189, 224, 238);
+    color: black;
+    font-weight: bold;
+}
+
+.signup_section_flex_original select {
+    border: none;
+    border-radius: 8px;
+    padding: revert;
+    width: 20vh;
+    height: 5.5vh;
+    margin: 2% 0% 0% 0%;
+    padding: 1% 0% 1% 3%;
+}
+
+/* .select_div {
+    margin: 0% 0% 9% 0% !important;
+} */
+
+/* ------------------------------------------signup section flex1 ----------------------------------- */
+.signup_section_flex1 {
+    margin: 0% 8% 0% 0%;
+}
+
+/* ------------------------------------------signup Buttons ----------------------------------- */
+.signup_buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 0% 0% 0% 35%;
+}
+
+.signup_buttons_back a button,
+.signup_buttons_submit a button,
+.signup_buttons_reset a button {
+    border: none;
+    border-radius: 20px;
+    margin: 0px 60px 0px 0px;
+    padding: 8px 30px 8px 30px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    /* background: #676eff; */
+    color: black;
+    background-color: #cd69a8;
+}
+
+.signup_buttons a button:hover {
+    background-color: #676eff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* ------------------------------------------ signup ----------------------------------- */
