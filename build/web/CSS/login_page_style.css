@@ -1,0 +1,269 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28-Jun-2022, 3:02:18 pm
+    Author     : Dell
+*/
+/*--------------------------------------------------------------------------------------------  */
+/*---------------------------------------Login page-------------------------------------  */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+*::selection {
+    color: white;
+    background-color: #d81b60;
+}
+
+/* input:-webkit-autofill
+{
+ -webkit-background-color: transparent !important;
+} */
+/* input:-webkit-autofill { */
+/* -webkit-box-shadow: 0 0 0px 1000px transparent inset; */
+/* -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-color: white;
+    -webkit-text-fill-color: white;
+    caret-color: white;
+
+
+}   */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    /* -webkit-box-shadow: 0 0 0px 1000px transparent inset; */
+    --webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    /* -webkit-color: white; */
+    -webkit-text-fill-color: white;
+    caret-color: white;
+
+}
+
+.signin-background {
+    background: url('../Images/login-background.jpg') no-repeat center center fixed;
+    /*background: url('../Images/temp3.jpg') no-repeat center center fixed;*/
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.signin-header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.welcome {
+    margin-left: 25px;
+}
+
+.newuser {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 260px;
+}
+.signup_link{
+    text-decoration: none;
+    color: white;
+}
+.signup {
+    margin-left: 22px;
+    cursor: pointer;
+}
+.signup_tag{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.signup_tag:hover{
+    color: #bb0084;
+}
+.signup:hover {
+    color: #bb0084;
+}
+#signup_button{
+    text-decoration: none; 
+    color: white;
+}
+
+/*--------------------------------------------------------------------------------------------- */
+.signin-page {
+    position: absolute;
+    top: 15%;
+    margin-left: 558px;
+}
+
+.signin-heading h1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.signin-heading h1::selection {
+    color: white;
+    background-color: #d81b60;
+}
+
+.signin-heading p {
+    color: white;
+    margin: 15px 0px 0px 6px;
+}
+
+.signin-email {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 2px solid #bb0084;
+    margin: 30px 0px;
+}
+
+.signin-email button {
+    background: transparent;
+    border: none;
+}
+
+.signin-email input {
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 229px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.signin-email input::selection {
+    color: white;
+    background-color: #d81b60;
+}
+
+.signin-password {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 2px solid #bb0084;
+}
+
+.signin-password input {
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    width: 229px;
+    padding-left: 5px;
+}
+
+.signin-password input::selection {
+    color: white;
+    background-color: #d81b60;
+}
+
+.signin-last {
+    display: flex;
+}
+
+.signin-button {
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #bb0084;
+    background-color: transparent;
+    color: white;
+    margin: 25px 0px 0px 102px;
+    cursor: pointer;
+}
+
+.signin-button:hover {
+    color: #bb0084;
+    border-color: white;
+}
+
+.forget-password {
+    color: white;
+    margin: 27px 0px 0px 68px;
+    cursor: pointer;
+}
+
+.forget-password:hover {
+    /* text-decoration: underline; */
+    color: #bb0084;
+}
+
+/*--------------------------------------------------------------------------------------------- */
+.signin-in {
+    margin: 40px 0px 0px 0px;
+    color: white;
+}
+
+.signin-images {
+    display: flex;
+    width: auto;
+}
+
+.signin-images img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.signin-images h3 {
+    margin-top: 5px;
+}
+
+.signin-google {
+    margin-left: 25px;
+}
+
+.signin-facebook {
+    margin-left: 17px;
+}
+
+.signin-twitter {
+    margin-left: 17px;
+}
+
+/*----------------------------------------Login other data----------------------------------------------- */
+.login_other_data_section {
+    color: white;
+    position: absolute;
+    margin: 8% 0% 1% 65%;
+}
+
+.login_other_data li a {
+    text-decoration: none;
+    color: #bb0084;
+    padding-top: 1%;
+}
+
+.login_other_data li {
+    margin-top: 4.5%;
+    list-style: none;
+}
+
+.login_other_data li::before {
+    content: "•";
+    color: orange;
+    display: inline-block;
+    width: 1em;
+}
+
+.login_other_data li a:hover {
+    color: white;
+}
+
+/*------------------------------------------------------------------------------------------- */
+/* --------------------------Last but not least--------------------------------------------- */
+

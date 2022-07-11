@@ -1,0 +1,217 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 06-Jul-2022, 11:19:24 am
+    Author     : Dell
+*/
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* background: linear-gradient(45deg, #554bc8, #3d61c0b8); */
+
+/* -----------------------------------------Session otp ---------------------------------------------------- */
+
+.otp_session {
+    padding: 5% 40% 2% 12%;
+    /* background: linear-gradient(45deg, #867ee4, #edcfcfb8); */
+    height: 66vh;
+}
+
+/* -----------------------------------------Session otp  main---------------------------------------------------------- */
+
+.otp_inside_session_main {
+    background-color: white;
+    box-shadow: 0px 0px 20px -2px rgb(186, 186, 186);
+    padding: 40px;
+    border-radius: 25px;
+    width: 130%;
+    height: 50vh;
+    margin: 20px 0px 0px 30%;
+}
+
+/* ----------------------------------------- otp header & title ---------------------------------------------------------- */
+
+.otp_header_div1 {
+    color: #f1582f;
+    font-weight: bold;
+    padding: 0px 0px 4% 38%;
+    font-size: large;
+}
+
+.otp_title_div2 {
+    color: blue;
+    padding: 0px 0px 0px 30px;
+}
+
+
+/* ----------------------------------------- otp Form mobile and email---------------------------------------------------------- */
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    /* -webkit-box-shadow: 0 0 0px 1000px transparent inset; */
+    --webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    /* -webkit-color: white; */
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    caret-color: rgb(0, 0, 0);
+}
+
+.otp_form {
+    margin: -2% 0% 0% 0%;
+}
+
+.otp_form_div1 {
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 2px solid #f1582f;
+    margin: 30px 30px;
+}
+
+/* .otp_form_div1 button {
+    background: transparent;
+    border: none;
+} */
+
+.otp_form_number {
+    color: #fb5428;
+    padding: 0px 0px 8px 0px;
+    font-size: 12px;
+}
+
+.otp_form_div1 div input {
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    width: 229px;
+    padding-left: 11px;
+    outline: none;
+}
+
+/* ---------------------email-----------------------------------*/
+
+.otp_form_div2 {
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 2px solid #f1582f;
+    margin: 30px 30px;
+}
+
+/* .otp_form_div1 button {
+    background: transparent;
+    border: none;
+} */
+
+.otp_form_email {
+    color: #fb5428;
+    padding: 0px 0px 8px 0px;
+    font-size: 12px;
+}
+
+.otp_form_div2 div input {
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    width: 229px;
+    padding-left: 11px;
+    outline: none;
+}
+
+/* ----------------------------------------- otp note ---------------------------------------------------------- */
+
+.note_first {
+    color: #f1582f;
+    padding: 10px 0px 0px 30px;
+    font-size: 16px;
+}
+
+.note_second {
+    padding: 0px 0px 0px 80px;
+    font-size: 16px;
+}
+
+.note_second_terms {
+    padding: 0px 0px 0px 80px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ff3700;
+    position: absolute;
+    margin: -19px 0px 0px 18.6%;
+}
+
+.note_second_terms:hover {
+    color: rgb(0, 8, 230);
+}
+
+.note_third {
+    padding: 0px 0px 0px 80px;
+    font-size: 16px;
+}
+
+/* -----------------------------------------Session logout cancle next button------------------------------------------- */
+
+.otp_buttons {
+    margin: -1% 0% 0% 0%;
+}
+
+.otp_from_logout a button {
+    cursor: pointer;
+    border: none;
+    background-color: #f1582f;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px 21px;
+    margin: 3% 0% 0px 15%;
+    font-size: 14px;
+}
+
+.otp_from_next a button {
+    cursor: pointer;
+    border: none;
+    background-color: #f1582f;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px 21px;
+    margin: 3% 0% 0px 28%;
+    font-size: 14px;
+}
+
+.otp_from_next a button:hover {
+    background-color: rgb(33, 33, 33);
+    color: #f1582f;
+}
+
+.otp_from_logout a button:hover {
+    background-color: rgb(33, 33, 33);
+    color: #f1582f;
+}
+
+.otp_from_cancle a button {
+    cursor: pointer;
+    border: none;
+    background-color: #f1582f;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 21px;
+    margin: 4.8% 0% 0px 67%;
+    font-size: 14px;
+}
+
+.otp_from_cancle a button:hover {
+    background-color: rgb(33, 33, 33);
+    color: #f1582f;
+
+}
+
