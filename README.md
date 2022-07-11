@@ -14,3 +14,5 @@ Technology Used :-
 2. Servlet & JSP
 3. MySQl Database
 
+
+![main_page](https://user-images.githubusercontent.com/108996622/178261101-c3c7a8ce-a2bd-41f9-816d-beca2ab9eb67.png)
