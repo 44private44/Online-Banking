@@ -77,7 +77,17 @@ Security pin :-
 
 If available required balance and correct Security pin then Successfully transfer otherwise throw error :-
 Successfully Transfer Money :- 
+![successfully_transfer_page](https://user-images.githubusercontent.com/108996622/178273958-9ec1a9e7-344f-47db-b29a-d06bf210a173.png)
 
+When click on  " Payment History " button then show the transaction histort & Account details  :- 
+![account_details_page](https://user-images.githubusercontent.com/108996622/178274345-0a463d62-d6fb-497d-acb5-8cd950134401.png)
+
+After logout then move to direct login page .
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Database Name and Table Name :- 
+![database_and_table](https://user-images.githubusercontent.com/108996622/178274598-b7848f00-b2d7-4290-af88-e0a89338c9eb.png)
 
 
 
