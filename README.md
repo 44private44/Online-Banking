@@ -62,6 +62,22 @@ varify user with OTP(ONE TIME PASSWORD)
 
 
 Final signon page for the user :- 
+![signon](https://user-images.githubusercontent.com/108996622/178273082-08664aa3-7c49-4e30-849a-bacd0482827d.png)
+
+
+Payment Dashboard : -
+![payment_dashboard](https://user-images.githubusercontent.com/108996622/178273178-227aafd2-96d9-4086-afac-5e1856bdd9d6.png)
+
+After click on " transfer money " button :-
+![transfer_money_page](https://user-images.githubusercontent.com/108996622/178273299-07db3fd8-148d-4ded-9958-714ca80715bb.png)
+
+
+Security pin :- 
+![security_pin](https://user-images.githubusercontent.com/108996622/178273369-fdf7a8d8-dd0f-40d5-9661-2c9e95cb8a45.png)
+
+If available required balance and correct Security pin then Successfully transfer otherwise throw error :-
+Successfully Transfer Money :- 
+
 
 
 
