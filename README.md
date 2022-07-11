@@ -18,6 +18,7 @@ Technology Used :-
 This is home page for my project with image slider :- 
 ![main_page](https://user-images.githubusercontent.com/108996622/178261101-c3c7a8ce-a2bd-41f9-816d-beca2ab9eb67.png)
 
+
 this is middle content: - 
 d](https://user-images.githubusercontent.com/108996622/178262317-dd38c7d0-f31e-48dc-ac3d-fcdc8a814ba2.png)
 
@@ -25,10 +26,42 @@ d](https://user-images.githubusercontent.com/108996622/178262317-dd38c7d0-f31e-4
 
 ![features](https://user-images.githubusercontent.com/108996622/178261944-a5b11075-44e8-46e7-92e1-a5b96160a035.png)
 
+
 Articles:-
 ![article](https://user-images.githubusercontent.com/108996622/178262857-5934f899-f07b-4890-894e-9c33f6619164.png)
 
+
 finally this is footer :- 
 ![footer_main](https://user-images.githubusercontent.com/108996622/178262883-d863bdbf-bdc4-450d-bbd3-f38feb30c5cb.png)
+
+
+contact page and all data will store into MySQL database :-
+![contactus2](https://user-images.githubusercontent.com/108996622/178263193-6e1f0795-38dc-4682-86e1-42754d0c68d7.png)
+
+
+Login page :- 
+![login_page](https://user-images.githubusercontent.com/108996622/178263315-f9ab2714-f01f-43a0-8ba4-5061d371a1a1.png)
+
+
+Sign up page if you are new user :-
+![signup](https://user-images.githubusercontent.com/108996622/178263404-d736ce22-b074-432f-986e-50e3972f7b50.png)
+
+varify user :- 
+![signup_page_otp](https://user-images.githubusercontent.com/108996622/178271566-90bc32f5-abe3-470b-8ef4-43ddfb5f2969.png)
+
+
+If you are not enter correct Userid & Password then goto Error page :-
+![error](https://user-images.githubusercontent.com/108996622/178271071-36d3fd72-f3d5-447a-96d4-7df3acd3eb25.png)
+
+
+If match with correct Username & their apportative Password then :-
+![otp](https://user-images.githubusercontent.com/108996622/178272043-a01ca5f1-9f66-474f-ae1f-3a72b06f2d15.png)
+
+varify user with OTP(ONE TIME PASSWORD)
+![otp_varify](https://user-images.githubusercontent.com/108996622/178272141-4250a9df-f2b0-4217-9017-282153bce043.png)
+
+
+Final signon page for the user :- 
+
 
 
